@@ -47,48 +47,22 @@ body{margin:0;position:relative; font-family:Arial,"微软雅黑";color:#666; fo
 }
 @-webkit-keyframes shake
 {
-	0%
-	{
-		-webkit-transform:rotate(-50deg);
+	0%{
+		-webkit-transform:rotate(40deg);
 	}
-	10%
-	{
-		-webkit-transform:rotate(45deg);
-	}
-	20%
-	{
-		-webkit-transform:rotate(-40deg);
-	}
-	30%
-	{
-		-webkit-transform:rotate(35deg);
-	}
-	40%
-	{
+	20%{
 		-webkit-transform:rotate(-30deg);
 	}
-	50%
-	{
-		-webkit-transform:rotate(25deg);
+	40%{
+		-webkit-transform:rotate(20deg);
 	}
-	60%
-	{
-		-webkit-transform:rotate(-20deg);
-	}
-	70%
-	{
-		-webkit-transform:rotate(15deg);
-	}
-	80%
-	{
+	60%{
 		-webkit-transform:rotate(-10deg);
 	}
-	90%
-	{
+	80%{
 		-webkit-transform:rotate(5deg);
 	}
-	100%
-	{
+	100%{
 		-webkit-transform:rotate(0deg);
 	}
 }
